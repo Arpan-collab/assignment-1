@@ -112,11 +112,7 @@
   gap: 24px;
   padding: 32px 0px;
 }
-.bangladesh_have {
-  padding: 32px;
-  border-radius: 16px;
-  background-color: rgba(84, 144, 245, 0.2);
-}
+
 .primary_button {
   margin-top: 24px;
   border: none;
@@ -147,6 +143,11 @@
   font-weight: 600;
   color: rgb(255, 255, 255);
 }
+.bangladesh_have {
+  padding: 32px;
+  border-radius: 16px;
+  background-color: rgba(84, 144, 245, 0.2);
+}
 .bangladesh_have_two {
   padding: 32px;
   background-color: rgb(198, 228, 214);
@@ -160,12 +161,13 @@
 /* Dr. Muhammad yunus Speech section styles */
 .speech_section {
   background-color: rgb(255, 255, 255);
-  padding: 48px 24px;
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
+  padding-bottom: 112px;
 }
 .speech_description {
   font-size: 16px;
+  padding: 32px 0px;
   color: rgba(14, 14, 14, 0.8);
 }
 .dr_muhammad_yunus {
@@ -181,6 +183,7 @@
 #quote_image {
   background-image: url("/assets/quote-bg.png");
   background-repeat: no-repeat;
+
 }
 /* Recent news section style */
 .recent_news_container {
@@ -332,9 +335,9 @@
   text-align: center;
   padding-top: 130px;
 }
-.footer_end_section_images{
+.footer_end_section_images {
   padding-top: 64px;
 }
-#footer_middle_image{
- padding: 0px 23px;
+#footer_middle_image {
+  padding: 0px 23px;
 }
